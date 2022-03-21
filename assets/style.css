@@ -19,8 +19,9 @@
     height: 100px;
     
 
-
 }    
+
+
 
 }
 header {font-size: 300%;
@@ -58,7 +59,9 @@ nav {
     
 }
 
-nav a :hover {color:var(--accents)}
+nav a :hover {
+    color:var(--accents)
+}
 
 nav a {color:var(--light);
     padding: 5px;
@@ -76,7 +79,9 @@ body {
     white-space: normal;
 }
 
-
+main {
+    background: linear-gradient(to right, #EFD9CE, #3891A6);
+}
 .project {
     border-style: solid;
     border-radius: 15%;
