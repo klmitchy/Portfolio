@@ -18,8 +18,13 @@ header {font-size: 300%;
 
 nav ul  {list-style-type: none;
         margin: 0;
-        padding: 0;
+        padding-left: 10%;
+        padding-right: 10%;
         color: var(--light);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
 
 section {
@@ -66,14 +71,15 @@ body {
     float: left;
     width: 25%;
     text-align: center;
-      }
+}
 
 h1 {
     font-size: x-large;
     color: var(--dark);
 }     
     
-h2 {font-size:medium
+h2 {
+    font-size:medium
 
 }
 
@@ -119,8 +125,12 @@ h2 {font-size:medium
     .project {
       width: 50%;
     }
+}
   
   @media screen and (max-width: 768px) {
     .project {
       width: 100%;
     }
+
+}
+  
